@@ -19,5 +19,6 @@ test("Submit Form ", async ({ page }) => {
     await hPage.ChooseGender("Male");
     await hPage.chooseEmpStatus();
     await hPage.clickOnSubmitBtn();
+    //Assertion
     await expect(hPage.getScssMsg).toBeTruthy();
 })

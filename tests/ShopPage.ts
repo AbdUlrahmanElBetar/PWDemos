@@ -23,7 +23,7 @@ export class ShopPage extends BasePageLocators{
         getByRole("button",{name:"Add "}).
         click();
     }
-
+        //Assertion
     async assertCheckOut():Promise<void>{
        await expect(this.page.getByText(/Checkout\s*\(\s*2\s*\)/))
     .toBeVisible();

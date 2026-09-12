@@ -13,5 +13,7 @@ test("Test Add 2 Product " , async ({page}) =>{
    await spage.openShopScreen();
    await spage.addIphoneX();
    await spage.addBlackberry();
+
+   //Assertion
    await spage.assertCheckOut();
 })

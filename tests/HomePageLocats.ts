@@ -13,7 +13,7 @@ export class HomePage extends BasePageLocators {
        await this.page.locator('form').locator('input[name="name"]').fill(name);
 
     }
-
+//Enter
     async enterEmail(email:string):Promise<void>{
     //await this.page.locator('form input[name="email"]').fill(email);
     await this.page.locator('form').locator('input[name="email"]').fill(email);

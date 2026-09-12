@@ -6,7 +6,7 @@ export class BasePageLocators{
     public async openHomeScreen(){
       await  this.page.goto("https://rahulshettyacademy.com/angularpractice/");
     }
-
+    //open
     async openShopScreen(){
         await this.page.goto("https://rahulshettyacademy.com/angularpractice/shop");
     }
