@@ -7,4 +7,8 @@ import { type Page } from "@playwright/test";
     async open():Promise<void>{
         await this.page.goto("https://www.saucedemo.com/")
     }
+
+    async openRahulRegSite():Promise<void>{
+        await this.page.goto("https://rahulshettyacademy.com/client/#/auth/register")
+    }
  }
